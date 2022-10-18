@@ -1,0 +1,29 @@
+.bigbutton{
+  text-align: center;
+  padding: 5px;
+  padding-right: 25px;
+  padding-left: 25px
+  max-height: 690px;
+  transition-decoration: 0.3s;
+  background-color: #aaa;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+.bigbutton:hover {
+  background-color: #555;
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+.bigbutton:hover a h3 {
+  transition: 0.4s;
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.bigbutton:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

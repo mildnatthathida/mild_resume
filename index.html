@@ -4,8 +4,100 @@
     <meta charset="UTF-8" />
     <title>This is Natthathida Raikhunthod 😀</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link type="image/png" sizes="96x96" rel="icon" href="https://img.icons8.com/nolan/96/home.png">
+    <base href="index.html" />
+    <script src="https://kit.fontawesome.com/237bd344eb.js" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body class="body-index">
+  <navbar>
+    <h1>Natthathida Raikhunthod</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <div class="animation start-home"/>
+    </nav>
+</navbar>
+  <div class="container">
+    <section aria-details="myself">
+      <div class="block-content">
+        <div class="infome">
+          <img
+            src="mild.jpg"
+            alt="Natthathida Raikhunthod at PIM" width="250" height="250" />
+          <div class="description-me">
+            <h1>Natthathida Raikhunthodร์</h1>
+            <p><em>สาขาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์</em></p>
+            <p>คณะวิศวกรรมกรรมศาสตร์และเทคโนโลยี</p>
+            <p>
+              <strong><a href="http://www.pim.ac.th">สถาบันการจัดการปัญญาภิวัฒน์</a></strong>
+            </p>
+          </div>
+        </div>
+        <p>ณัฏฐธิดา รายขุนทด ชื่อเล่น มายด์ รหัสนักศึกษา 6352300367</p>
+      </div>
+      <hr style="border-style:dotted;" >
+    </section>
+    <section aria-details="experience">
+      <div class="block-content">
+        <h3>ประสบการณ์การทำงาน</h3>
+        <table id="work_experience" style="width: 60%;" aria-describedby="Table work">
+          <thead>
+            <tr class="work">
+              <th style="text-align: center;">Year</th>
+              <th style="text-align: center;">Work Place</th>
+            </tr>
+          </thead>
+          <tr class="work">
+            <td>2021-12 - 2022-05</td>
+            <td>FPT Software</td>
+          </tr>
+          <tr class="work">
+            <td>2022-06 - 2022-08</td>
+            <td>7-11</td>
+          </tr>
+        </table>
+      </div>
+      <hr style="border-style:dotted;" >
+    </section>
+    <section aria-details="myskill">
+      <div class="block-content">
+        <h3>ทักษะความสามารถ Skill</h3>
+        <div class="myskill">
+          <div class="skill1">
+            <table>
+              <td>
+                <table >
+                  <tr><td>Java programming</td><td>  ★ ★ ★</td>
+                  <tr><td>English</td><td>  ★ ★ ★</td>
+                </table>
+              </td>
+
+              <td>
+                <table>
+                  <tr><td>Problem solving</td><td>  ★ ★ ★ ★</td>
+                  <tr><td>Teamwork</td><td>  ★ ★ ★</td>
+                  </tr>
+                </table>
+              </tr>
+            </td>
+            </table>
+          </div>
+        </div>
+      </div>
+      <hr style="border-style:dotted;" >
+    </section>
+    <section aria-details="link">
+      <div class="bigbutton">
+        <a href="report.html">
+          <h3>Week Report-1</h3>
+        </a>
+      </div>
+    </section>
+  </div>
+</body>
+  <!-- <body>
     <div class="top-container">
      <img class = "top-cloud" src="cloud.png" alt>
      <h1>Natthathida Raikhunthod</h1>
@@ -25,21 +117,8 @@
       <table>
         <td>
           <table>
-            <tr>
-              <td>
-                Java programming
-              </td>
-              <td>
-                ⭐⭐⭐
-              </td>
-              <tr>
-                <td>
-                  English
-                </td>
-                <td>
-                  ⭐⭐⭐
-                </td>
-            </tr>
+            <tr><td>Java programming</td><td>  ⭐⭐⭐</td>
+            <tr><td>Java English</td><td>  ⭐⭐⭐</td>
           </table>
         </td>
 
@@ -50,7 +129,7 @@
                 Problem solving
               </td>
               <td>
-                ⭐⭐⭐⭐
+                ⭐⭐⭐⭐<td>Intermediate ✫ ✫ ✫  </td>
               </td>
               <tr>
                 <td>
@@ -84,24 +163,13 @@
   <p>  <a href="https://www.facebook.com/profile.php?id=100007833788328">Facebook</a></p>
   <img src="ig.jpg" alt="Instagram" width="100" height="150">
   <!-- <p>  <a href="ig.jpg">Instagram</a></p> -->
-  <p>  <a href="report.html">Weekly Report </a></p>
-  <p>  <a href="div.html">div&div</a></p>
+  <!-- <p>  <a href="report.html">Weekly Report </a></p> -->
+  <!-- <p>  <a href="div.html">div&div</a></p> -->
 
-  </div> </a></p>
+  <!-- </div> </a></p>
 
   <hr style="border-style:dotted;" >
 
-  <h3>ติดต่อฉัน</h3>
-      <form class="" action="mailto:mildnatthathida@gmail.com" method="post">
-        <label>Name:</label>
-        <input type="text" name="name_surname" value=""><br>
-        <label>E-mail:</label>
-        <input type="email" name="email" value=""><br>
-        <label>ข้อความที่ต้องการส่ง:</label>
-        <textarea name="message" rows="8" cols="80"></textarea><br>
-        <input type="submit" name="">
-
-      </form>
-  </body>
+  </body> --> -->
 
 </html>
