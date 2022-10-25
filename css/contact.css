@@ -1,14 +1,25 @@
 .body-index {
-  background-color: #7895B2;
+  background-color: #000000;
   /* min-height: 100vh;
   color: black;
   margin: 0;
   padding: 0;
   position: relative; */
 }
+
+.top-container{
+  width: 55px;
+  height: 55px;
+  text-align: center;
+}
 .detail {
     position: relative;
     font-size: 1.2em;
+}
+h3{
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #fff;
 }
 
 .social-link em {

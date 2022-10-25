@@ -1,0 +1,169 @@
+.into-index {
+  background-color: #000000;
+  /* min-height: 100vh; */
+  color: black;
+  /* margin: 0;
+  padding: 0;
+  position: relative; */
+}
+
+/* claer a */
+.container a {
+  text-decoration: none;
+  color: #282c34;
+}
+
+.container {
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 10px;
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  max-width: 960px;
+  min-height: 90vh;
+  border-radius: 10px;
+}
+.image-me{
+  border-radius: 50%;
+}
+/* Header-c1 */
+
+.block-content {
+  border: 2px solid #cacaca;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.top-container{
+  position: relative;
+  padding-top:100px;
+  background-color: #000000;
+}
+h2 {
+  margin-top: 50px;
+  font-family: 'Mitr',sans-serif;
+  text-align: center;
+  font-size: 2.625rem;
+  color: #fff;
+}
+h3{
+  font-family: 'Noto Sans Thai',sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+h4{
+  font-family: 'Noto Sans Thai',sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+
+.container hr {
+  border-style: dotted none none;
+  border-color: #cacaca;
+  border-width: 5px;
+  height: 1 px;
+  max-width: 30%;
+}
+
+.infome{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.photome{
+  border: 4px solid #555555;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 2rem;
+  transition-duration: 0.3s;
+}
+/* phtome hover rotate 10 deg and scale 1.1 */
+.photome:hover{
+  transform: rotate(-10deg) scale(1.03);
+}
+
+.photome:active{
+  transform: rotate(10deg) scale(.97);
+  transition-duration: 0.3s;
+}
+
+.description-me{
+  margin-left: 50px;
+  padding: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/* #work_experience thead, */
+
+#work_experience tfoot {
+  background-color: #333;
+  color: #fff;
+}
+.work{
+  widows: 300px;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+/* Myskill */
+.myskill{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.myskill div table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.myskill div th, td {
+  text-align: left;
+  padding: 8px;
+  /* don't visable line th, td  */
+
+}
+
+.myskill th {
+  background-color: none;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.myskill tr:hover {background-color: #ddd;}
+
+li {
+  list-style-type: none;
+}
+
+.hover-scale:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+
+.hover-scale:active {
+  transition-duration: 0.3s;
+  transform: scale(0.8);
+}
+
+.text-center {
+  text-align: center !important;
+}
